@@ -97,6 +97,8 @@ def find_std_strings(addr, size):
 # lvl = state.get_game_manager().get_play_layer().add(0x488).read_pointer()
 # find_std_strings(state.get_game_manager().get_play_layer().address, playlayer_size)
 
+# this macro is stinky
+
 # #define HASH_ITER(hh,head,el,tmp)                                                \
 # for((el)=(head),(tmp)=DECLTYPE(el)((head)?(head)->hh.next:NULL);                 \
 #   el; (el)=(tmp),(tmp)=DECLTYPE(el)((tmp)?(tmp)->hh.next:NULL))
